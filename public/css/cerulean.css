@@ -1,30 +1,40 @@
-/* line 5, ../../sass/partials/_mainmenu.scss */
+ /*
+
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#04519b), color-stop(60%, #033c73), to(#02325f));
+  background-image: -webkit-linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-image: -moz-linear-gradient(top, #04519b, #033c73 60%, #02325f);
+  background-image: linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #022241;
+
+  */
+/* line 14, ../../sass/partials/_mainmenu.scss */
 .pure-menu.pure-menu-open.pure-menu-primary {
   background: #1993d9;
   color: white;
 }
 
-/* line 9, ../../sass/partials/_mainmenu.scss */
+/* line 18, ../../sass/partials/_mainmenu.scss */
 .pure-menu.pure-menu-open.pure-menu-inverse {
   background: #033c73;
   color: white;
 }
 
-/* line 14, ../../sass/partials/_mainmenu.scss */
+/* line 23, ../../sass/partials/_mainmenu.scss */
 .pure-menu.pure-menu-primary a {
   color: white;
 }
-/* line 17, ../../sass/partials/_mainmenu.scss */
+/* line 26, ../../sass/partials/_mainmenu.scss */
 .pure-menu.pure-menu-primary a:hover {
   color: white;
   background: #178acc;
 }
 
-/* line 23, ../../sass/partials/_mainmenu.scss */
+/* line 32, ../../sass/partials/_mainmenu.scss */
 .pure-menu.pure-menu-inverse a {
   color: white;
 }
-/* line 26, ../../sass/partials/_mainmenu.scss */
+/* line 35, ../../sass/partials/_mainmenu.scss */
 .pure-menu.pure-menu-inverse a:hover {
   color: white;
   background: #022241;
