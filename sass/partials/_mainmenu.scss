@@ -1,0 +1,30 @@
+@import "compass";
+@import "../modules/colors";
+
+ 
+.pure-menu.pure-menu-open.pure-menu-primary {
+    background:$primary;
+    color:$light;
+}
+.pure-menu.pure-menu-open.pure-menu-inverse {
+    background:$inverse;
+    color:$light;
+}
+.pure-menu.pure-menu-primary  {
+    a {
+       color:$light;
+    }
+    a:hover {
+        color:$light;
+        background:$primary-dark;
+    }
+}
+.pure-menu.pure-menu-inverse {
+    a {
+       color:$light;
+    }
+    a:hover {
+        color:$light;
+        background:$inverse-dark;
+    }
+}

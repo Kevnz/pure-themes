@@ -1,0 +1,8 @@
+@import "compass";
+@import "modules/colors";
+.splash {
+    margin-top: 25px;
+    background:$splash;
+    color:$dark;
+    padding:30px;
+}

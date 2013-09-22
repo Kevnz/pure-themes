@@ -1,0 +1,102 @@
+/* line 5, ../../sass/partials/_mainmenu.scss */
+.pure-menu.pure-menu-open.pure-menu-primary {
+  background: #1993d9;
+  color: white;
+}
+
+/* line 9, ../../sass/partials/_mainmenu.scss */
+.pure-menu.pure-menu-open.pure-menu-inverse {
+  background: #033c73;
+  color: white;
+}
+
+/* line 14, ../../sass/partials/_mainmenu.scss */
+.pure-menu.pure-menu-primary a {
+  color: white;
+}
+/* line 17, ../../sass/partials/_mainmenu.scss */
+.pure-menu.pure-menu-primary a:hover {
+  color: white;
+  background: #178acc;
+}
+
+/* line 23, ../../sass/partials/_mainmenu.scss */
+.pure-menu.pure-menu-inverse a {
+  color: white;
+}
+/* line 26, ../../sass/partials/_mainmenu.scss */
+.pure-menu.pure-menu-inverse a:hover {
+  color: white;
+  background: #022241;
+}
+
+/* line 3, ../../sass/partials/_header.scss */
+.splash {
+  margin-top: 25px;
+  background: #e3e3e3;
+  color: black;
+  padding: 30px;
+}
+
+/* line 4, ../../sass/partials/_content.scss */
+.content {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* line 10, ../../sass/partials/_buttons.scss */
+.pure-button-default,
+.pure-button,
+.pure-button-info,
+.pure-button-success,
+.pure-button-danger,
+.pure-button-warning,
+.pure-button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 15, ../../sass/partials/_buttons.scss */
+.pure-button-default {
+  color: black;
+}
+
+/* line 19, ../../sass/partials/_buttons.scss */
+.pure-button-info {
+  background: #033c73;
+}
+
+/* line 22, ../../sass/partials/_buttons.scss */
+.pure-button-success {
+  background: #1cb841;
+  /* this is a green */
+}
+
+/* line 26, ../../sass/partials/_buttons.scss */
+.pure-button-danger {
+  background: #ca3c3c;
+  /* this is a maroon */
+}
+
+/* line 30, ../../sass/partials/_buttons.scss */
+.pure-button-warning {
+  background: #df7514;
+  /* this is an orange */
+}
+
+/* line 34, ../../sass/partials/_buttons.scss */
+.pure-button-secondary {
+  background: #42b8dd;
+  /* this is a light blue */
+}
+
+/* line 1, ../../sass/partials/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #317EAC;
+}
+
+/* line 7, ../../sass/cerulean.scss */
+body {
+  color: #777;
+}
