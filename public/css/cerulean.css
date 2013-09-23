@@ -8,33 +8,41 @@
   border-bottom: 1px solid #022241;
 
   */
-/* line 14, ../../sass/partials/_mainmenu.scss */
+/* line 14, ../../sass/partials/_menu.scss */
 .pure-menu.pure-menu-open.pure-menu-primary {
-  background: #1993d9;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #33a6e8), color-stop(60%, #1993d9), color-stop(100%, #1787c7));
+  background-image: -webkit-linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
+  background-image: -moz-linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
+  background-image: -o-linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
+  background-image: linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
   color: white;
 }
 
-/* line 18, ../../sass/partials/_mainmenu.scss */
+/* line 20, ../../sass/partials/_menu.scss */
 .pure-menu.pure-menu-open.pure-menu-inverse {
-  background: #033c73;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #04519b), color-stop(60%, #033c73), color-stop(100%, #02325f));
+  background-image: -webkit-linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-image: -moz-linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-image: -o-linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-image: linear-gradient(#04519b, #033c73 60%, #02325f);
   color: white;
 }
 
-/* line 23, ../../sass/partials/_mainmenu.scss */
+/* line 25, ../../sass/partials/_menu.scss */
 .pure-menu.pure-menu-primary a {
   color: white;
 }
-/* line 26, ../../sass/partials/_mainmenu.scss */
+/* line 28, ../../sass/partials/_menu.scss */
 .pure-menu.pure-menu-primary a:hover {
   color: white;
   background: #178acc;
 }
 
-/* line 32, ../../sass/partials/_mainmenu.scss */
+/* line 34, ../../sass/partials/_menu.scss */
 .pure-menu.pure-menu-inverse a {
   color: white;
 }
-/* line 35, ../../sass/partials/_mainmenu.scss */
+/* line 37, ../../sass/partials/_menu.scss */
 .pure-menu.pure-menu-inverse a:hover {
   color: white;
   background: #022241;
@@ -104,6 +112,7 @@
 /* line 1, ../../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #317EAC;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 7, ../../sass/cerulean.scss */

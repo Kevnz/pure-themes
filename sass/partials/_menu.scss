@@ -12,11 +12,13 @@
 
   */
 .pure-menu.pure-menu-open.pure-menu-primary {
-    background:$primary;
+    //linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5
+
+    @include background-image(linear-gradient(lighten($primary, 8%), $primary 60%, darken($primary, 4%)));
     color:$light;
 }
 .pure-menu.pure-menu-open.pure-menu-inverse {
-    background:$inverse;
+    @include background-image(linear-gradient(lighten($inverse, 8%), $inverse 60%, darken($inverse, 4%)));
     color:$light;
 }
 .pure-menu.pure-menu-primary  {
