@@ -16,21 +16,26 @@
     color:black;
 }
 
-.pure-button-info {
-    background: $inverse;
+.pure-button-info { 
+    @include background-image(linear-gradient(lighten($inverse, 8%), $inverse 60%, darken($inverse, 4%)));
+    
 }
 .pure-button-success {
     background: rgb(28, 184, 65); /* this is a green */
+    @include background-image(linear-gradient(lighten($success, 8%), $success 60%, darken($success, 4%)));
+    
 }
 
 .pure-button-danger {
-    background: rgb(202, 60, 60); /* this is a maroon */
+    @include background-image(linear-gradient(lighten($danger, 8%), $danger 60%, darken($danger, 4%)));
+
 }
 
 .pure-button-warning {
-    background: rgb(223, 117, 20); /* this is an orange */
+    @include background-image(linear-gradient(lighten($warning, 8%), $warning 60%, darken($warning, 4%)));
+
 }
 
 .pure-button-secondary {
-    background: rgb(66, 184, 221); /* this is a light blue */
+    @include background-image(linear-gradient(lighten($secondary, 8%), $secondary 60%, darken($secondary, 4%)));
 }

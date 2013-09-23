@@ -82,31 +82,49 @@
 
 /* line 19, ../../sass/partials/_buttons.scss */
 .pure-button-info {
-  background: #033c73;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #04519b), color-stop(60%, #033c73), color-stop(100%, #02325f));
+  background-image: -webkit-linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-image: -moz-linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-image: -o-linear-gradient(#04519b, #033c73 60%, #02325f);
+  background-image: linear-gradient(#04519b, #033c73 60%, #02325f);
 }
 
-/* line 22, ../../sass/partials/_buttons.scss */
+/* line 23, ../../sass/partials/_buttons.scss */
 .pure-button-success {
   background: #1cb841;
   /* this is a green */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #88c149), color-stop(60%, #73a839), color-stop(100%, #699934));
+  background-image: -webkit-linear-gradient(#88c149, #73a839 60%, #699934);
+  background-image: -moz-linear-gradient(#88c149, #73a839 60%, #699934);
+  background-image: -o-linear-gradient(#88c149, #73a839 60%, #699934);
+  background-image: linear-gradient(#88c149, #73a839 60%, #699934);
 }
 
-/* line 26, ../../sass/partials/_buttons.scss */
+/* line 29, ../../sass/partials/_buttons.scss */
 .pure-button-danger {
-  background: #ca3c3c;
-  /* this is a maroon */
-}
-
-/* line 30, ../../sass/partials/_buttons.scss */
-.pure-button-warning {
-  background: #df7514;
-  /* this is an orange */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e12b31), color-stop(60%, #c71c22), color-stop(100%, #b5191f));
+  background-image: -webkit-linear-gradient(#e12b31, #c71c22 60%, #b5191f);
+  background-image: -moz-linear-gradient(#e12b31, #c71c22 60%, #b5191f);
+  background-image: -o-linear-gradient(#e12b31, #c71c22 60%, #b5191f);
+  background-image: linear-gradient(#e12b31, #c71c22 60%, #b5191f);
 }
 
 /* line 34, ../../sass/partials/_buttons.scss */
+.pure-button-warning {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff6707), color-stop(60%, #dd5600), color-stop(100%, #c94e00));
+  background-image: -webkit-linear-gradient(#ff6707, #dd5600 60%, #c94e00);
+  background-image: -moz-linear-gradient(#ff6707, #dd5600 60%, #c94e00);
+  background-image: -o-linear-gradient(#ff6707, #dd5600 60%, #c94e00);
+  background-image: linear-gradient(#ff6707, #dd5600 60%, #c94e00);
+}
+
+/* line 39, ../../sass/partials/_buttons.scss */
 .pure-button-secondary {
-  background: #42b8dd;
-  /* this is a light blue */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #65c5e3), color-stop(60%, #42b8dd), color-stop(100%, #31b2da));
+  background-image: -webkit-linear-gradient(#65c5e3, #42b8dd 60%, #31b2da);
+  background-image: -moz-linear-gradient(#65c5e3, #42b8dd 60%, #31b2da);
+  background-image: -o-linear-gradient(#65c5e3, #42b8dd 60%, #31b2da);
+  background-image: linear-gradient(#65c5e3, #42b8dd 60%, #31b2da);
 }
 
 /* line 1, ../../sass/partials/_typography.scss */
