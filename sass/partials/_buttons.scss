@@ -14,28 +14,48 @@
 }
 .pure-button-default {
     color:black;
+    @include background-image(linear-gradient(lighten($default, 8%), $default 60%, darken($default, 4%)));
+    &:active  {
+        @include background-image(linear-gradient(darken($default, 4%), $default 60%, lighten($default, 8%)));  
+    }
 }
-
+.pure-button-primary { 
+    @include background-image(linear-gradient(lighten($primary, 8%), $primary 60%, darken($primary, 4%)));
+    &:active  {
+        @include background-image(linear-gradient(darken($primary, 4%), $primary 60%, lighten($primary, 8%)));  
+    }
+}
 .pure-button-info { 
     @include background-image(linear-gradient(lighten($inverse, 8%), $inverse 60%, darken($inverse, 4%)));
-    
+    &:active  {
+        @include background-image(linear-gradient(darken($inverse, 4%), $inverse 60%, lighten($inverse, 8%)));  
+    }
 }
 .pure-button-success {
     background: rgb(28, 184, 65); /* this is a green */
     @include background-image(linear-gradient(lighten($success, 8%), $success 60%, darken($success, 4%)));
-    
+    &:active  {
+        @include background-image(linear-gradient(darken($success, 4%), $success 60%, lighten($success, 8%)));  
+    }
 }
 
 .pure-button-danger {
     @include background-image(linear-gradient(lighten($danger, 8%), $danger 60%, darken($danger, 4%)));
-
+    &:active  {
+        @include background-image(linear-gradient(darken($danger, 4%), $danger 60%, lighten($danger, 8%)));  
+    }
 }
 
 .pure-button-warning {
     @include background-image(linear-gradient(lighten($warning, 8%), $warning 60%, darken($warning, 4%)));
-
+    &:active  {
+        @include background-image(linear-gradient(darken($warning, 4%), $warning 60%, lighten($warning, 8%)));  
+    }
 }
 
 .pure-button-secondary {
     @include background-image(linear-gradient(lighten($secondary, 8%), $secondary 60%, darken($secondary, 4%)));
+    &:active  {
+        @include background-image(linear-gradient(darken($secondary, 4%), $secondary 60%, lighten($secondary, 8%)));  
+    }
 }
