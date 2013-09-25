@@ -6,3 +6,24 @@
     color:$dark;
     padding:30px;
 }
+
+header {
+    margin:0;
+    padding:0;
+    @include background-image(linear-gradient(lighten($primary, 8%), $primary 60%, darken($primary, 4%)));
+    h1,h2,h3,h4,h5,h6 {
+        font-weight: lighter;
+        color:white;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        .mobile & {
+            margin:8px;
+        }
+    }
+    .mobile & {
+        position: fixed;
+        top: 0;
+        width:100%;
+        ;
+
+    }
+}

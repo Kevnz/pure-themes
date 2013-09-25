@@ -56,6 +56,33 @@
   padding: 30px;
 }
 
+/* line 10, ../../sass/partials/_header.scss */
+header {
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #33a6e8), color-stop(60%, #1993d9), color-stop(100%, #1787c7));
+  background-image: -webkit-linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
+  background-image: -moz-linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
+  background-image: -o-linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
+  background-image: linear-gradient(#33a6e8, #1993d9 60%, #1787c7);
+}
+/* line 14, ../../sass/partials/_header.scss */
+header h1, header h2, header h3, header h4, header h5, header h6 {
+  font-weight: lighter;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+/* line 18, ../../sass/partials/_header.scss */
+.mobile header h1, .mobile header h2, .mobile header h3, .mobile header h4, .mobile header h5, .mobile header h6 {
+  margin: 8px;
+}
+/* line 22, ../../sass/partials/_header.scss */
+.mobile header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /* line 4, ../../sass/partials/_content.scss */
 .content {
   margin: 10px;
