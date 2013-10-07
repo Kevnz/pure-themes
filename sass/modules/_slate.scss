@@ -1,0 +1,35 @@
+@import "compass";
+
+$primary: #3A3F44;
+$primary-dark: #272B30;
+$success: #62c462;
+$info: #5bc0de;
+$warning: #f89406;
+$danger: #ee5f5b; 
+$secondary: rgb(66, 184, 221);
+
+$light: #ffffff;
+$dark: #000000;
+$splash: #E3E3E3;
+
+$default: #272B30;
+
+$inverse: #7A8288;
+$inverse-dark: #022241;
+
+$default-button: $primary;
+$primary-button: $default;
+
+
+$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size: 14px;
+$line-height: 1.428571429;
+$main-bg: #272b30;
+$text-color: #c8c8c8;
+
+@mixin bg($color) {
+    @include background-image(linear-gradient(lighten($color, 8%), $color 60%, darken($color, 4%)));
+}
+@mixin active-bg($color) {
+	@include background-image(linear-gradient(darken($color, 4%), $color 60%, lighten($color, 8%)));
+}
