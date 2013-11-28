@@ -11,7 +11,7 @@ module.exports = function (grunt) {
         },
         watch: {
             files: ['public/js/*', 'public/js/**.js','sass/**.scss','sass/**/*.scss', 'app.js','lib/*', 'views/*.*', 'views/layouts/*.*'],
-            tasks: [ 'jshint', 'compass', 'yuiConfig', 'copy'],
+            tasks: [ 'jshint', 'sass', 'yuiConfig', 'copy'],
             options: {
                 livereload: true,
             }
@@ -65,19 +65,25 @@ module.exports = function (grunt) {
                 }
             }
         },
-        compass: {
+        sass: {
             dist: {
                 options: {
-                config: 'config.rb'
+                    includePaths: ['sass/'],
+                    outputStyle: 'nested'
+                },
+                files: {
+                    'public/css/cerulean.css': 'sass/cerulean.scss',
+                    'public/css/flatly.css': 'sass/flatly.scss',
+                    'public/css/slate.css': 'sass/slate.scss'
+
                 }
             }
-        }
+        },
     });
-
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-yui-config');
-    grunt.loadNpmTasks('grunt-contrib-compass'); 
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.registerTask('default',  ['jshint','compass','yuiConfig','copy']);
+    grunt.registerTask('default',  ['jshint','sass','yuiConfig','copy']);
 };
